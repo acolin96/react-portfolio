@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.83c6b413.css",
+    "main.js": "/static/js/main.fb0d7b75.js",
+    "static/js/787.dab475a8.chunk.js": "/static/js/787.dab475a8.chunk.js",
+    "static/media/Data_Grid.mp4": "/static/media/Data_Grid.cdfdac65d97a94a0c6be.mp4",
+    "index.html": "/index.html",
+    "main.83c6b413.css.map": "/static/css/main.83c6b413.css.map",
+    "main.fb0d7b75.js.map": "/static/js/main.fb0d7b75.js.map",
+    "787.dab475a8.chunk.js.map": "/static/js/787.dab475a8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83c6b413.css",
+    "static/js/main.fb0d7b75.js"
+  ]
+}

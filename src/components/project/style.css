@@ -1,0 +1,32 @@
+.icon-color a {
+    color: white;
+    font-size: 30px;
+}
+
+.icon-color {
+    width: auto;
+    height: 100%;
+    position: relative;
+}
+
+
+.fit {
+    object-fit: cover !important;
+    width: auto;
+    height: auto;
+    object-position: center;
+
+}
+
+.pads {
+    padding: 25px 0;
+
+}
+
+.foot {
+    height: 90%;
+    background-image: url('./assets/stripes.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
