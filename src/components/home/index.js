@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css'
-import videoBg from '../../assets/Data_Grid.mp4'
+import Data_Grid from '../../assets/Data_Grid.mp4'
 import Typewriter from "typewriter-effect";
 
 
@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className="home">
       <div className="overlay"></div>
-      <video src={videoBg} autoPlay loop muted />
+      <video src={Data_Grid} autoPlay loop muted />
       <div className="content">
       <Typewriter 
         onInit={(typewriter) => {

@@ -3,7 +3,7 @@ import React from 'react'
 import './style.css'
 // import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import Letter from './assets/letter.png'
+// import Letter from './assets/letter.png'
 
 
 // import Pdf from './adam-colin-resume.pdf'
@@ -13,7 +13,7 @@ function Resume() {
 
     <div className='container'>
     <Card>
-      <Card.Img variant="top" src={Letter} />
+      {/* <Card.Img variant="top" src={Letter} /> */}
       <Card.Body>
         <Card.Title>Resume</Card.Title>
         <Card.Text>

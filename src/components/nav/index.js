@@ -3,7 +3,7 @@ import React from 'react'
 import './style.css'
 import Container from 'react-bootstrap/Container';
 import { Button, Navbar } from 'react-bootstrap';
-import logo from '../Nav/assets/life.jpg'
+// import logo from '../Nav/assets/life.jpg'
 
 function MyNavBar() {
   return (
@@ -11,11 +11,11 @@ function MyNavBar() {
       <Navbar sticky="top" expand="lg" bg="black" data-bs-theme="dark">
         <Container fluid>
           <Navbar.Brand href="/">
-            <img 
+            {/* <img 
             src={logo} 
             alt="logo..." 
             style={{ width: '4rem', transition: 'transform 0.2s ease-in-out' }} 
-            className="navbar-logo" />
+            className="navbar-logo" /> */}
           </Navbar.Brand>
           <div className="button-container">
             <Button href="/About" variant="outline-light">About</Button>
