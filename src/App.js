@@ -9,7 +9,7 @@ import Nav from './components/nav/';
 import Projects from './components/project/';
 import Footer from './components/footer'
 
-import 'bootstrap/dist/css/bootstrap.min.css'
+// import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 export default function App() {
