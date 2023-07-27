@@ -1,15 +1,15 @@
 import React from 'react'
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Contact from './components/contact/';
-import About from './components/about/';
-import Resume from './components/resume/';
+import Contact from './components/Contact';
+import About from './components/About';
+import Resume from './components/Resume';
 import Home from './components/home';
-import Nav from './components/nav/';
-import Projects from './components/project/';
-import Footer from './components/footer'
+import Nav from './components/Nav';
+import Project from './components/Project';
+import Footer from './components/Footer'
 
-// import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 export default function App() {
@@ -18,14 +18,14 @@ export default function App() {
                 <Nav />
                 <Routes>
                     <Route
-                        path="/"
+                        path="/Home"
                         element={<Home />}/>
                     <Route
-                        path="/about"
+                        path="/About"
                         element={<About />}/>
                     <Route
-                        path="/projects"
-                        element={<Projects />}/>
+                        path="/project"
+                        element={<Project />}/>
                     <Route
                         path="/contact"
                         element={<Contact />}/>

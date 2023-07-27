@@ -14,44 +14,47 @@ import './style.css'
 
 
 
-// export default function Projects() {
+export default function Projects() {
 
-//   return (
+  return (
 
-//     <Container fluid className='foot'>
-//       <Row className="pads">
-//         <Col xs={12} sm={6}>
-//           <ImageTemplate 
-//           src={Social} alt="" repo='' text=''/>
-//         </Col>
-//         <Col xs={12} sm={6}>
-//           <ImageTemplate 
-//           src={Editor} alt="" repo='' text='' />
-//         </Col>
-//       </Row>
+<div>hello</div>
 
-//             <Row className="pads">
-//         <Col xs={12} sm={6}>
-//           <ImageTemplate 
-//           src={Commerce} alt="" repo='' text=''/>
-//         </Col>
-//         <Col xs={12} sm={6}>
-//           <ImageTemplate 
-//           src={ReadMe} alt="" repo='' text=''/>
-//         </Col>
-//       </Row>
+
+    // <Container fluid className='foot'>
+    //   <Row className="pads">
+    //     <Col xs={12} sm={6}>
+    //       <ImageTemplate 
+    //       src={Social} alt="" repo='' text=''/>
+    //     </Col>
+    //     <Col xs={12} sm={6}>
+    //       <ImageTemplate 
+    //       src={Editor} alt="" repo='' text='' />
+    //     </Col>
+    //   </Row>
+
+    //         <Row className="pads">
+    //     <Col xs={12} sm={6}>
+    //       <ImageTemplate 
+    //       src={Commerce} alt="" repo='' text=''/>
+    //     </Col>
+    //     <Col xs={12} sm={6}>
+    //       <ImageTemplate 
+    //       src={ReadMe} alt="" repo='' text=''/>
+    //     </Col>
+    //   </Row>
       
-//       <Row className="pads">
-//         <Col xs={12} sm={6}>
-//           <ImageTemplate 
-//           src={PassGen} alt="" repo='' text=''/>
-//         </Col>
-//         <Col xs={12} sm={6}>
-//           <ImageTemplate 
-//           src={Employee} alt="" repo='' text=''/>
-//         </Col>
-//       </Row>
-//     </Container>
+    //   <Row className="pads">
+    //     <Col xs={12} sm={6}>
+    //       <ImageTemplate 
+    //       src={PassGen} alt="" repo='' text=''/>
+    //     </Col>
+    //     <Col xs={12} sm={6}>
+    //       <ImageTemplate 
+    //       src={Employee} alt="" repo='' text=''/>
+    //     </Col>
+    //   </Row>
+    // </Container>
 
-//   )
-// };
+  )
+};
