@@ -1,0 +1,31 @@
+[
+    {
+        "title": "alpha-project-api",
+        "desc": "An art social media",
+        "image": "artzenith",
+        "repoLink": "https://github.com/acolin96/alpha-project-api",
+        "liveLink": "https://acolin96.github.io/alpha-project-api/"
+    },
+    {
+        "title": "note-taker",
+        "desc": "A very usefull app to write notes/make a to do list",
+        "image":"notetaker",
+        "repoLink": "https://github.com/acolin96/note-taker",
+        "liveLink": "https://stark-brook-91008-08a9a810b4fa.herokuapp.com/"
+    },
+    {
+        "title": "social-network-api",
+        "desc": "a social network",
+        "image": "",
+        "repoLink": "https://github.com/acolin96/social-network-api"
+    },
+    {
+        "title": "recipe-voyage",
+        "desc": "A program to create and share recipes with other users.",
+        "image": "",
+        "repoLink": "https://github.com/oshkoshbagoshh/recipe-voyage",
+        "liveLink": "https://recipevoyage-6c0c7512867d.herokuapp.com/"
+    }
+    
+
+]

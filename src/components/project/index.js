@@ -1,60 +1,41 @@
-import React from 'react'
+import { Card, Col, Row, Container } from 'react-bootstrap';
 
-import './style.css'
+import SlideIn from '../../utils/SlideIn';
 
-// import ImageTemplate from './ImageTemplate';
-// import Commerce from './assets/';
-// import ReadMe from './assets/';
-// import Social from './assets/';
-// import Editor from './assets/';
-// import PassGen from './assets/';
-// import Employee from './assets/';
+import { Github, BrowserChrome } from 'react-bootstrap-icons';
 
-// import { Container, Row, Col } from 'react-bootstrap';
+import projects from '../../utils/projects.json';
 
+// import img1 from `./assets/${projects[0].image}.png`;
 
-
-export default function Projects() {
-
+function Projects() {
   return (
 
-<div>hello</div>
+    <SlideIn>
+      <Container className='projects'>
+        <Row xs={1} md={3} className="g-4">
+          {projects.map(({ title, image, desc, repoLink, liveLink }) => (
+            <Col>
+              <Card>
+               {image}
+                {/* <Card.Img variant="top" src={require("./assets/"+image+".png")} /> */}
+                {/* <Card.Img variant="top" src={require(`./assets/${image}.png`)} /> */}
+                {/* <Card.Img variant="top" src={img1} /> */}
+                <Card.Body>
+                  <Card.Title>{title}</Card.Title>
+                  <Card.Text>
+                    {desc}
+                  </Card.Text>
+                  <Card.Link href={repoLink} target="blank"><Github size={36} /></Card.Link>
+                  <Card.Link href={liveLink} target="blank"><BrowserChrome size={36} /></Card.Link>
+                </Card.Body>
+              </Card>
+            </Col>
+          ))}
+        </Row>
+      </Container>
+    </SlideIn>
+  );
+}
 
-
-    // <Container fluid className='foot'>
-    //   <Row className="pads">
-    //     <Col xs={12} sm={6}>
-    //       <ImageTemplate 
-    //       src={Social} alt="" repo='' text=''/>
-    //     </Col>
-    //     <Col xs={12} sm={6}>
-    //       <ImageTemplate 
-    //       src={Editor} alt="" repo='' text='' />
-    //     </Col>
-    //   </Row>
-
-    //         <Row className="pads">
-    //     <Col xs={12} sm={6}>
-    //       <ImageTemplate 
-    //       src={Commerce} alt="" repo='' text=''/>
-    //     </Col>
-    //     <Col xs={12} sm={6}>
-    //       <ImageTemplate 
-    //       src={ReadMe} alt="" repo='' text=''/>
-    //     </Col>
-    //   </Row>
-      
-    //   <Row className="pads">
-    //     <Col xs={12} sm={6}>
-    //       <ImageTemplate 
-    //       src={PassGen} alt="" repo='' text=''/>
-    //     </Col>
-    //     <Col xs={12} sm={6}>
-    //       <ImageTemplate 
-    //       src={Employee} alt="" repo='' text=''/>
-    //     </Col>
-    //   </Row>
-    // </Container>
-
-  )
-};
+export default Projects;

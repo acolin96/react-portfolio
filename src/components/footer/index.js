@@ -10,13 +10,13 @@ export default function Footer() {
     <footer className="footer-container">
       <div className="footer-content">
         <div className="icon-content">
-          <a href="https://www.linkedin.com/in/adam-colin" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/alexander-colin-1433a2265/" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
-          <a href="https://github.com/iKingSpacely?tab=repositories" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/acolin96?tab=repositories" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faGithub} />
           </a>
-          <a href="https://www.twitch.tv/kingspacely" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.twitch.tv/quartereye420" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faTwitch} />
           </a>
         </div>

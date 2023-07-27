@@ -18,19 +18,19 @@ export default function App() {
                 <Nav />
                 <Routes>
                     <Route
-                        path="/Home"
+                        path="/"
                         element={<Home />}/>
                     <Route
                         path="/About"
                         element={<About />}/>
                     <Route
-                        path="/project"
+                        path="/Project"
                         element={<Project />}/>
                     <Route
-                        path="/contact"
+                        path="/Contact"
                         element={<Contact />}/>
                     <Route
-                        path="/resume"
+                        path="/Resume"
                         element={<Resume />}/>
                 </Routes>
 
